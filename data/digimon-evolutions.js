@@ -1,4 +1,4 @@
-// digimon-db.js
+
 // Linee evolutive Rookie -> Champion -> Ultimate -> Mega
 //
 // Nota:
@@ -10,6 +10,7 @@
 // - attribute: Vaccine / Data / Virus / Free
 
 const DIGIMON_DATA = {
+
 
   // ============================================================
   // AGUMON
@@ -934,7 +935,8 @@ for (const key in DIGIMON_DATA) {
 // ============================================================
 // ESPORTAZIONE
 // ============================================================
-
+window.DIGIMON_DATA = DIGIMON_DATA;
+window.DIGIMON_BACK_MAP = BACK_MAP;
 if (typeof module !== "undefined" && module.exports) {
   module.exports = {
     DIGIMON_DATA,
