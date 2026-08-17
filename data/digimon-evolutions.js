@@ -1,17 +1,220 @@
 
-// Linee evolutive Rookie -> Champion -> Ultimate -> Mega
-//
-// Nota:
-// - Gli stage sono espliciti.
-// - I buchi nelle linee sono consentiti.
-// - Le special evolution / object evolution non sono gestite.
-// - Un Digimon può essere usato come punto di partenza indipendentemente
-//   dal suo stage originale, secondo le regole del gioco.
-// - attribute: Vaccine / Data / Virus / Free
 
 const DIGIMON_DATA = {
 
+  // ============================================================
+  // BABY
+  // ============================================================
 
+"Dorimon": {
+  n: "Dorimon",
+  i: "Dorimon.png",
+  stage: "Baby",
+  attribute: "Free",
+  evolve: {
+    fel: 100,
+    to: [
+      "Agumon",
+      "Gabumon",
+      "Patamon",
+      "Gomamon",
+      "Palmon",
+      "Tentomon",
+      "Biyomon",
+      "Guilmon",
+      "Renamon",
+      "Impmon",
+      "Terriermon",
+      "Dorumon",
+      "Gaomon",
+      "Keramon",
+      "Hawkmon",
+      "Armadillomon",
+      "Wormmon",
+      "Salamon"
+    ]
+  }
+},
+
+"Kapurimon": {
+  n: "Kapurimon",
+  i: "Kapurimon.png",
+  stage: "Baby",
+  attribute: "Free",
+  evolve: {
+    fel: 100,
+    to: [
+      "Agumon",
+      "Gabumon",
+      "Patamon",
+      "Gomamon",
+      "Palmon",
+      "Tentomon",
+      "Biyomon",
+      "Guilmon",
+      "Renamon",
+      "Impmon",
+      "Terriermon",
+      "Dorumon",
+      "Gaomon",
+      "Keramon",
+      "Hawkmon",
+      "Armadillomon",
+      "Wormmon",
+      "Salamon"
+    ]
+  }
+},
+
+"Koromon": {
+  n: "Koromon",
+  i: "Koromon.png",
+  stage: "Baby",
+  attribute: "Free",
+  evolve: {
+    fel: 100,
+    to: [
+      "Agumon",
+      "Gabumon",
+      "Patamon",
+      "Gomamon",
+      "Palmon",
+      "Tentomon",
+      "Biyomon",
+      "Guilmon",
+      "Renamon",
+      "Impmon",
+      "Terriermon",
+      "Dorumon",
+      "Gaomon",
+      "Keramon",
+      "Hawkmon",
+      "Armadillomon",
+      "Wormmon",
+      "Salamon"
+    ]
+  }
+},
+
+"Pagumon": {
+  n: "Pagumon",
+  i: "Pagumon.png",
+  stage: "Baby",
+  attribute: "Free",
+  evolve: {
+    fel: 100,
+    to: [
+      "Agumon",
+      "Gabumon",
+      "Patamon",
+      "Gomamon",
+      "Palmon",
+      "Tentomon",
+      "Biyomon",
+      "Guilmon",
+      "Renamon",
+      "Impmon",
+      "Terriermon",
+      "Dorumon",
+      "Gaomon",
+      "Keramon",
+      "Hawkmon",
+      "Armadillomon",
+      "Wormmon",
+      "Salamon"
+    ]
+  }
+},
+
+"Tenemon": {
+  n: "Tenemon",
+  i: "Tenemon.png",
+  stage: "Baby",
+  attribute: "Free",
+  evolve: {
+    fel: 100,
+    to: [
+      "Agumon",
+      "Gabumon",
+      "Patamon",
+      "Gomamon",
+      "Palmon",
+      "Tentomon",
+      "Biyomon",
+      "Guilmon",
+      "Renamon",
+      "Impmon",
+      "Terriermon",
+      "Dorumon",
+      "Gaomon",
+      "Keramon",
+      "Hawkmon",
+      "Armadillomon",
+      "Wormmon",
+      "Salamon"
+    ]
+  }
+},
+
+"Tokomon": {
+  n: "Tokomon",
+  i: "Tokomon.png",
+  stage: "Baby",
+  attribute: "Free",
+  evolve: {
+    fel: 100,
+    to: [
+      "Agumon",
+      "Gabumon",
+      "Patamon",
+      "Gomamon",
+      "Palmon",
+      "Tentomon",
+      "Biyomon",
+      "Guilmon",
+      "Renamon",
+      "Impmon",
+      "Terriermon",
+      "Dorumon",
+      "Gaomon",
+      "Keramon",
+      "Hawkmon",
+      "Armadillomon",
+      "Wormmon",
+      "Salamon"
+    ]
+  }
+},
+
+"Tsunomon": {
+  n: "Tsunomon",
+  i: "Tsunomon.png",
+  stage: "Baby",
+  attribute: "Free",
+  evolve: {
+    fel: 100,
+    to: [
+      "Agumon",
+      "Gabumon",
+      "Patamon",
+      "Gomamon",
+      "Palmon",
+      "Tentomon",
+      "Biyomon",
+      "Guilmon",
+      "Renamon",
+      "Impmon",
+      "Terriermon",
+      "Dorumon",
+      "Gaomon",
+      "Keramon",
+      "Hawkmon",
+      "Armadillomon",
+      "Wormmon",
+      "Salamon"
+    ]
+  }
+},
   // ============================================================
   // AGUMON
   // ============================================================
